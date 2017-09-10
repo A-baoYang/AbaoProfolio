@@ -188,12 +188,12 @@
     <div id="googleMap" style="height: 400px; width: 100%;"></div>
     <script>
         function myMap() {
-            var myCenter = new google.maps.LatLng(121, 23.5);
+            var myCenter = new google.maps.LatLng(25.049680, 121.569302);
             var mapProp = {
                 center: myCenter,
-                zoom: 12,
-                scrollwheel: false,
-                draggable: false,
+                zoom: 18,
+                scrollwheel: true,
+                draggable: true,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             };
             var map = new google.maps.Map(
@@ -205,7 +205,7 @@
             marker.setMap(map);
         }
     </script>
-    <script language="Javascript" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPUZ0-Mj-JljUnNhyF_HIvBKdPWMBC2Tw&callback=myMap"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7uW92-sGAOnpPau4_ic182ruJebi5G9U&callback=myMap"></script>
 
     <footer class="container-fluid text-center">
         <a href="#myPage" title="To Top">
